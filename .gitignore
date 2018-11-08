@@ -1,0 +1,8 @@
+*.txt
+*.docx
+*.csv
+*.xlsx
+*#
+*@
+
+.idea/
