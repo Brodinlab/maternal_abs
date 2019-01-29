@@ -3,7 +3,7 @@
 Here are scripts to perform analysis of systematic viral epitope scanning (VirScan). 
 The principles behind the codes were described in [Xu et al. (2015)] (http://doi.org/10.1126/science.aaa0698)
 
-The scripts have been used to obtain the results published in ‘The repertoire of maternal anti.viral antibodies in human newborns’ paper.
+The scripts have been used to obtain the results published in ‘The repertoire of maternal anti-viral antibodies in human newborns’ paper.
 
 # Dependencies
 - Bowtie/1.0.2
@@ -17,8 +17,7 @@ The scripts have been used to obtain the results published in ‘The repertoire 
 
 # Documentation for each step of data analysis pipeline
 
-The scripts available in this repo are all located in `src/`.  
-The usage descriptions are provided in this readme
+The scripts available in this repo are all located in `src/`. The usage descriptions are provided in this readme
 
 ## Align sequencing data to reference
 
@@ -86,7 +85,7 @@ The python script calc_scores.py calculates virus scores using the maximum parsi
 *  `NHITS.SAMPS.csv.gz` is a two column gzipped csv file, column 1 is oligo id, column 2 is the number of non-beads samples in which that oligo was a hit
 *  `GROUPING_LEVEL` can be Species or Organism, depending on 
 *  `EPITOPE_LEN` should be 7, the length of a linear epitope
-*  `OUTPUT.ziscore.spp.csv` is a two column csv file. First column is either Species or Organism, depending on `GROUPING_LEVEL`, and second column is the score.
+*  `OUTPUT.ziscore.spp.csv` is a two column csv file.
 
 ## Combine multiple cvss into one table
 
