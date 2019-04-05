@@ -3,12 +3,14 @@
 Here are scripts to perform analysis of systematic viral epitope scanning (VirScan). 
 The principles behind the codes were described in [Xu et al. (2015)] (http://doi.org/10.1126/science.aaa0698)
 
-The scripts have been used to obtain the results published in ‘The repertoire of maternal anti-viral antibodies in human newborns’ paper.
+The scripts have been used to obtain the results published in the Nature Medicine, ‘The repertoire of maternal anti-viral antibodies in human newborns’
+“The repertoire of maternal anti-viral antibodies in human newborns”
+Christian Pou, Dieudonné Nkulikiyimfura, Ewa Henckel, Axel Olin, Tadepally Lakshmikanth, Jaromir Mikes, Jun Wang, Yang Chen, Anna-Karin Bernhardsson, Anna Gustafsson, Kajsa Bohlin and Petter Brodin. (doi: 10.1038/s41591-019-0392-8)
 
 # Dependencies
-- Bowtie/1.0.2
+- Bowtie/1.2.0
 - Samtools/1.1
-- Python/3.5.4 (numpy/1.11.3, pandas/0.21.0, matplotlib/2.1.2)
+- Python/3.5.4 (numpy/1.11.3, pandas/0.17.1, matplotlib/2.1.2)
 
 # Repo description
 `db`       <-- db directory with the input virus library  
